@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
-import { setTheme } from '../store/themeslice';
+import { setTheme } from '../store/themeSlice';
 
 export function useTheme() {
   const dispatch = useAppDispatch();
